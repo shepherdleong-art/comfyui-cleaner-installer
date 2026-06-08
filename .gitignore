@@ -1,0 +1,17 @@
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.spec
+*.exe
+*.zip
+*.7z
+*.rar
+*.log
+.venv/
+venv/
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
