@@ -53,33 +53,11 @@ python build.py
 dist/ComfyUI清理工具_Setup/
 dist/ComfyUI清理工具_Setup.zip
 ```
+## 致谢
 
-`dist/` 里的内容是分发产物，适合放到 GitHub Release，不建议直接提交进普通 Git 仓库。
+本项目由 shepherdleong-art 制作。
 
-## GitHub 建议
+开发与整理过程中使用了：
 
-普通仓库只提交源码和图标：
-
-- `src/`
-- `assets/`
-- `build.py`
-- `README.md`
-- `.gitignore`
-- `.gitattributes`
-
-不要提交：
-
-- `build/`
-- `dist/`
-- `*.exe`
-- `*.zip`
-
-## 安全说明
-
-当前构建出的 exe 默认没有数字签名。Windows Defender、浏览器或 SmartScreen 可能提示风险，这是未签名自制工具常见现象。
-
-如果要公开分发，建议：
-
-- 在 GitHub Release 附上 SHA256；
-- 说明它是未签名工具；
-- 条件允许时购买代码签名证书。
+- OpenAI Codex
+- Claude Code
